@@ -1,0 +1,64 @@
+/* variables */
+:root {
+    --header-max-width: 1300px; /* 1612px; */
+    --nav-link-fonts: "Nunito Sans", sans-serif;
+
+    --color-primary: #488eff;
+}
+
+/* HEADER styles */
+#header-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    border: 1px solid;
+}
+
+#header-container #header {
+    max-width: var(--header-max-width);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--nav-link-fonts);
+}
+
+#header__logo {
+    width: 195px;
+}
+
+#header #header__navbar {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header #header__navbar .nav-link {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#header #header__navbar .nav-link:hover {
+    color: var(--color-primary);
+    transition:all 0.15s ease-in;
+}
+
+#header #header__login-btn {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    padding: 10px 20px;
+    background: white;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 0 9px 6px #00000014;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#header #header__login-btn:hover,
+#header #header__login-btn:active {
+    color: #1871ff;
+    border-color: #1871ff;
+}
+
