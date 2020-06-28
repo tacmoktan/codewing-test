@@ -1,0 +1,79 @@
+#wordpress-experts-container {
+    padding: 60px 20px;
+}
+
+#wordpress-experts-container #wordpress-experts {
+    display: grid;
+    row-gap: 60px;
+}
+
+#wordpress-experts__details {
+    position: relative;
+    background: var(--color-primary-light);
+    padding: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#wordpress-experts__details #details__info {
+    display: grid;
+    grid-row-gap: 25px;
+    max-width: 600px;
+}
+
+#details__info #details__heading {
+    font-size: 30px;
+}
+
+#details__info #details__description,
+#details__info #details__lets-talk,
+#details__info #details__view-plan {
+    font-family: var(--nunito);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#details__info #details__view-plan {
+    font-weight: bold;
+    width: fit-content;
+    position: relative;
+}
+
+#details__info #details__view-plan:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left:0;
+    border-bottom: 2px solid #1A73E8;
+    width:100%;
+}
+
+#wordpress-experts__details #details__person {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 10px;
+    position: absolute;
+    right: 4%;
+    top: -20%;
+    background: white;
+    width: fit-content;
+    text-align: center;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    padding: 45px 25px;
+    box-shadow: 0 13px 46px rgba(0, 0, 0, 10%);
+}
+
+#details__person #person__pic {
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+}
+
+#details__person #person__name {
+    font-family: var(--hensa);
+    font-size: 33px;
+}
+
+#details__person #person__post {
+    font-family: var(--nunito);
+}
