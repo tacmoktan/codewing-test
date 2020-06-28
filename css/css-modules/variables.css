@@ -1,10 +1,10 @@
 @font-face {
     font-family: "GoboldRegular";
-    src: url(../../fonts/Gobold\Regular.otf);
+    src: url("../../fonts/Gobold-Regular.otf");
 }
 @font-face {
     font-family: "GothamBold";
-    src: url(../../fonts/Gotham\Bold.otf);
+    src: url("../../fonts/Gotham-Bold.otf");
 }
 @font-face {
     font-family: "Hensa";

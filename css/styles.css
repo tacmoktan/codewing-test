@@ -5,6 +5,8 @@
 @import url("./css-modules/wordpress-experts.css");
 @import url("./css-modules/our-features.css");
 @import url("./css-modules/what-clients-say.css");
+@import url("./css-modules/get-started.css");
+@import url("./css-modules/footer.css");
 
 * {
     padding: 0;
@@ -32,6 +34,26 @@
     margin-bottom: 50px;
 }
 
+/* GET STARTED button */
+.btn.btn-get-started {
+    background: var(--color-primary);
+    padding: 10px 20px;
+    border: 1px solid var(--color-primary);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: -7px 7px 0px -2px rgba(72, 142, 255, 35%);
+    text-transform: capitalize;
+    color: white;
+    font-family: var(--nunito-sans);
+    font-weight: bold;
+    width: fit-content;
+    font-size: 18px;
+}
+
+.btn-get-started:hover {
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+}
 /* VIEW LINKS */
 .view-more-link {
     font-family: var(--nunito-sans);
@@ -71,7 +93,7 @@ h6 {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #232323;
 }
 
 button {

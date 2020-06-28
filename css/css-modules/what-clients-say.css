@@ -34,8 +34,8 @@
 
 #what-clients-say__client-list {
     content: "";
-    position: absolute;
-    bottom: -30px;
+    position: relative;
+    bottom: 85px;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -64,15 +64,22 @@
 
 .client__card .card__client-pic {
     border-radius: 50%;
+    filter: opacity(0.3);
+}
+
+.client__card-and-site.active .client__card .card__client-pic {
+    filter: opacity(1);
 }
 
 .client__card .card__client-info .client-info__name {
     font-family: var(--alegreya);
     font-weight: bold;
+    font-size: 20px;
 }
 
 .client__card .card__client-info .client-info__position {
     font-family: var(--alegreya-sans);
+    font-size: 17px;
 }
 
 .client__card-and-site .client__website {
