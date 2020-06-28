@@ -1,5 +1,5 @@
 #hero-container {
-    background-color: rgba(72, 142, 255, 5%);
+    background-color: var(--color-primary-light);
     background-size: cover;
     padding: 115px 20px;
     width: 100%;

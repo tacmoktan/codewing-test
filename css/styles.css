@@ -4,6 +4,7 @@
 @import url("./css-modules/featured-on.css");
 @import url("./css-modules/wordpress-experts.css");
 @import url("./css-modules/our-features.css");
+@import url("./css-modules/what-clients-say.css");
 
 * {
     padding: 0;
@@ -25,8 +26,9 @@
 
 .content-container .section-desc {
     font-size: 21px;
-    text-align: center;
     font-family: var(--nunito-sans);
+    font-weight: 500;
+    text-align: center;
     margin-bottom: 50px;
 }
 

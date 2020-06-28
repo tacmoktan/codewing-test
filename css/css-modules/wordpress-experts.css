@@ -7,6 +7,10 @@
     row-gap: 60px;
 }
 
+#wordpress-experts__heading{
+    text-align:left;
+}
+
 #wordpress-experts__details {
     position: relative;
     background: var(--color-primary-light);

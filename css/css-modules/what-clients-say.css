@@ -1,0 +1,87 @@
+#what-clients-say {
+    display: grid;
+    grid-row-gap: 30px;
+    padding: 60px 0;
+    position: relative;
+}
+
+#what-clients-say__info {
+    background-color: var(--color-primary-light);
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 50px;
+    padding: 80px 0 120px 0;
+}
+
+#what-clients-say__info #info__subject {
+    font-size: 30px;
+    text-align: center;
+}
+
+#what-clients-say__info #info__desc {
+    font-size: 21px;
+    font-family: var(--nunito-sans);
+    font-style: italic;
+    max-width: 850px;
+    text-align: center;
+    line-height: 2;
+}
+
+#what-clients-say__info #comma-icon {
+    margin: 0 auto;
+    width: 31px;
+}
+
+#what-clients-say__client-list {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+#what-clients-say__client-list .client__card-and-site {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.client__card-and-site .client__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 290px;
+    padding: 20px 25px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background: white;
+}
+
+.client__card-and-site.active .client__card {
+    box-shadow: 0 13px 26px rgb(0, 0, 0, 5%);
+}
+
+.client__card .card__client-pic {
+    border-radius: 50%;
+}
+
+.client__card .card__client-info .client-info__name {
+    font-family: var(--alegreya);
+    font-weight: bold;
+}
+
+.client__card .card__client-info .client-info__position {
+    font-family: var(--alegreya-sans);
+}
+
+.client__card-and-site .client__website {
+    text-align: center;
+    color: var(--color-primary);
+    display: none;
+    font-family: var(--nunito-sans);
+}
+
+.client__card-and-site.active .client__website {
+    display: block;
+}
