@@ -1,17 +1,7 @@
-/* variables */
-:root {
-    --header-max-width: 1300px; /* 1612px; */
-    --nav-link-fonts: "Nunito Sans", sans-serif;
-
-    --color-primary: #488eff;
-}
-
-/* HEADER styles */
 #header-container {
     display: flex;
     justify-content: center;
     padding: 20px 40px;
-    border: 1px solid;
 }
 
 #header-container #header {
@@ -20,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: var(--nav-link-fonts);
+    font-family: var(--nunito-sans);
 }
 
 #header__logo {
@@ -28,10 +18,11 @@
 }
 
 #header #header__navbar {
-    max-width: 800px;
+    max-width: 950px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #header #header__navbar .nav-link {
@@ -41,24 +32,22 @@
 
 #header #header__navbar .nav-link:hover {
     color: var(--color-primary);
-    transition:all 0.15s ease-in;
+    transition: all 0.15s ease-in;
 }
 
-#header #header__login-btn {
+#header__navbar #header__login-btn {
     color: var(--color-primary);
-    border-color: var(--color-primary);
     padding: 10px 20px;
-    background: white;
-    border: 2px solid;
+    background: transparent;
+    border: 2px solid var(--color-primary);
     border-radius: 5px;
     box-shadow: 0 9px 6px #00000014;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-#header #header__login-btn:hover,
-#header #header__login-btn:active {
-    color: #1871ff;
-    border-color: #1871ff;
+#header__navbar #header__login-btn:hover,
+#header__navbar #header__login-btn:active {
+    background: var(--color-primary);
+    color: white;
 }
-

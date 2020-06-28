@@ -1,0 +1,25 @@
+#featured-on-container {
+    padding: 40px 20px;
+}
+
+#featured-on {
+    display: grid;
+    grid-row-gap: 40px;
+}
+
+#featured-on #featured-on__title {
+    text-align: center;
+    font-size: 24px;
+}
+
+#featured-on #featured-on__images {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, minmax(215px, auto));
+    grid-row-gap:30px;
+}
+
+#featured-on #featured-on__images .partner-img-container {
+    display: flex;
+    align-items: center;
+}

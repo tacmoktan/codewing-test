@@ -1,0 +1,16 @@
+/* variables */
+:root {
+    /* width */
+    --header-max-width: 1300px; /* 1612px; */
+    --content-max-width: 1070px; /* 1170px; */
+
+    /* fonts */
+    --alegreya: "Alegreya", serif;
+    --alegreya-sans: "Alegreya Sans", sans-serif;
+    --nunito: "Nunito", sans-serif;
+    --nunito-sans: "Nunito Sans", sans-serif;
+
+    /* color  */
+    --color-primary: #488eff;
+    --color-primary-light: rgba(72, 142, 255, 5%);
+}

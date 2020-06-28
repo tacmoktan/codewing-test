@@ -1,5 +1,7 @@
-
-@import url('./css-modules/header.css');
+@import url("./css-modules/variables.css");
+@import url("./css-modules/header.css");
+@import url("./css-modules/hero-section.css");
+@import url("./css-modules/featured-on.css");
 
 * {
     padding: 0;
@@ -7,13 +9,29 @@
     box-sizing: border-box;
 }
 
+.content-container{
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+}
+
 /* Reset default styles */
+
+/* HEADINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--alegreya);
+}
+
 a {
     text-decoration: none;
     color: black;
 }
 
-button {
+button{
     cursor: pointer;
     outline: none;
     transition: all 0.15s ease-in;
