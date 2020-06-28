@@ -15,40 +15,37 @@
     flex-wrap: wrap;
 }
 
-#wordpress-experts__details #details__info {
+#wordpress-experts__details #experts__details__info {
     display: grid;
     grid-row-gap: 25px;
     max-width: 600px;
 }
 
-#details__info #details__heading {
+#experts__details__info #details__info__heading {
     font-size: 30px;
 }
 
-#details__info #details__description,
-#details__info #details__lets-talk,
-#details__info #details__view-plan {
+#experts__details__info #details__info__desc,
+#experts__details__info #details__info__lets-talk,
+#experts__details__info #details__info__view-plan {
     font-family: var(--nunito);
     font-size: 18px;
     line-height: 1.5;
 }
 
-#details__info #details__view-plan {
-    font-weight: bold;
-    width: fit-content;
-    position: relative;
+#experts__details__info #details__info__view-plan {
+    color: #01022f;
 }
 
-#details__info #details__view-plan:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left:0;
-    border-bottom: 2px solid #1A73E8;
-    width:100%;
+#experts__details__info #details__info__view-plan:hover {
+    color: hsl(214, 82%, 51%, 80%);
 }
 
-#wordpress-experts__details #details__person {
+#experts__details__info #details__info__view-plan:after {
+    border-color: #1a73e8;
+}
+
+#wordpress-experts__details #experts__details__person {
     display: grid;
     justify-items: center;
     grid-row-gap: 10px;
@@ -64,16 +61,16 @@
     box-shadow: 0 13px 46px rgba(0, 0, 0, 10%);
 }
 
-#details__person #person__pic {
+#experts__details__person #person__pic {
     border-top-right-radius: 55px;
     border-bottom-left-radius: 55px;
 }
 
-#details__person #person__name {
+#experts__details__person #person__name {
     font-family: var(--hensa);
     font-size: 33px;
 }
 
-#details__person #person__post {
+#experts__details__person #person__post {
     font-family: var(--nunito);
 }

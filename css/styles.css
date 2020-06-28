@@ -3,21 +3,58 @@
 @import url("./css-modules/hero-section.css");
 @import url("./css-modules/featured-on.css");
 @import url("./css-modules/wordpress-experts.css");
+@import url("./css-modules/our-features.css");
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #232323;
 }
 
-.content-container{
+/* CONTENT CONTAINER */
+.content-container {
     max-width: var(--content-max-width);
     margin: 0 auto;
 }
 
-.content-container .section-title{
-    font-size:42px;
+.content-container .section-title {
+    font-size: 42px;
+    text-align: center;
 }
+
+.content-container .section-desc {
+    font-size: 21px;
+    text-align: center;
+    font-family: var(--nunito-sans);
+    margin-bottom: 50px;
+}
+
+/* VIEW LINKS */
+.view-more-link {
+    font-family: var(--nunito-sans);
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: bold;
+    width: fit-content;
+    position: relative;
+    color: #2c3964;
+    transition: all 0.15s ease-in;
+}
+
+.view-more-link:hover {
+    color: hsl(217, 100%, 64%, 80%);
+}
+
+.view-more-link:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid #488eff;
+    width: 100%;
+}
+
 /* Reset default styles */
 
 /* HEADINGS */
@@ -35,7 +72,7 @@ a {
     color: black;
 }
 
-button{
+button {
     cursor: pointer;
     outline: none;
     transition: all 0.15s ease-in;

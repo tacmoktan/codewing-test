@@ -15,7 +15,7 @@
 :root {
     /* width */
     --header-max-width: 1300px; /* 1612px; */
-    --content-max-width: 1070px; /* 1170px; */
+    --content-max-width: 1170px;
 
     /* fonts */
     --alegreya: "Alegreya", serif;
