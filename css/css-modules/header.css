@@ -95,3 +95,10 @@
         color: white;
     }
 }
+
+
+@media (max-width:581px){
+    #header-container { 
+        padding:var(--h-padding-sm);
+    }
+}

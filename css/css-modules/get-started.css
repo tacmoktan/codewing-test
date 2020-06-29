@@ -1,7 +1,8 @@
 #get-started {
-    padding: 60px 20px;
+    padding: 60px var(--h-padding-lg);
     background: #2c3964;
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-around;
     align-items: center;
     border-top-right-radius: 55px;
@@ -28,6 +29,7 @@
     word-spacing: 2px;
 }
 
-#get-started__content #bottom__get-started-btn {
+#get-started #bottom__get-started-btn {
     height: 100%;
+    margin: 20px 0;
 }

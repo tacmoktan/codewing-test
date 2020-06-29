@@ -1,10 +1,11 @@
-#footer-container{
-    padding:0 var(--h-padding-lg);
+#footer-container {
+    padding: 0 var(--h-padding-lg);
 }
 
 #footer #footer-top {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 70px 0;
     border-bottom: 2px solid rgba(72, 142, 255, 10%);
 }
@@ -28,8 +29,7 @@
 
 #footer-top #footer__menu {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    max-width: 760px;
+    grid-template-columns: repeat(3, minmax(250px, auto));
 }
 
 #footer__menu .menu__items {
@@ -59,19 +59,28 @@
 #footer #footer-bottom {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px 0;
 }
 
-#footer-bottom #footer__copyright-and-privacy #copyright-text {
+#footer-bottom #footer__copyright-and-privacy {
+    display: flex;
+    margin: 0 10px 10px 0;
+    flex-wrap: wrap;
+}
+
+#footer__copyright-and-privacy #copyright-text {
     font-family: var(--nunito-sans);
     border-right: 2px solid rgba(72, 142, 255, 10%);
     padding-right: 15px;
+    display: block;
 }
 
-#footer-bottom #footer__copyright-and-privacy #privacy-link {
+#footer__copyright-and-privacy #privacy-link {
     font-family: var(--nunito-sans);
     color: var(--color-primary);
     padding-left: 15px;
+    display: block;
 }
 
 #footer__social-media {
@@ -79,3 +88,39 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 1124px) {
+    #footer-top #footer__company {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #footer-top #footer__menu {
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        width: 100%;
+        grid-row-gap: 30px;
+    }
+
+    #footer__menu .menu__items {
+        grid-row-gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer-top #footer__menu {
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    }
+
+    #footer__social-media {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 581px) {
+
+    #footer-container {
+        padding: 0 var(--h-padding-sm);
+    }
+}
+
+

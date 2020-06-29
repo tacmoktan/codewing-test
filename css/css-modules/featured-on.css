@@ -25,3 +25,17 @@
     display: flex;
     align-items: center;
 }
+
+@media (max-width:1024px){
+    #featured-on #featured-on__images {
+        justify-content: space-around;
+        grid-row-gap:40px;
+    }
+
+}
+
+@media (max-width:581px){
+    #featured-on-container {
+        padding:60px var(--h-padding-sm);
+    }
+}

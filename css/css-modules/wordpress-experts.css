@@ -7,8 +7,8 @@
     row-gap: 60px;
 }
 
-#wordpress-experts__heading{
-    text-align:left;
+#wordpress-experts__heading {
+    text-align: left;
 }
 
 #wordpress-experts__details {
@@ -77,4 +77,67 @@
 
 #experts__details__person #person__post {
     font-family: var(--nunito);
+}
+
+@media (max-width: 1124px) {
+    #wordpress-experts-container #wordpress-experts {
+        row-gap: 220px;
+    }
+
+    #wordpress-experts__details {
+        padding: 190px 90px 100px 90px;
+    }
+
+    #wordpress-experts__details #experts__details__info {
+        max-width: 100%;
+    }
+
+    #wordpress-experts__details #experts__details__person {
+        right: 50%;
+        transform: translateX(50%);
+        top: -35%;
+    }
+}
+
+@media (max-width: 768px) {
+    #wordpress-experts__details {
+        padding: 190px 30px 100px 30px;
+    }
+
+    #wordpress-experts__details #experts__details__person {
+        top: -30%;
+    }
+}
+
+@media (max-width: 581px) {
+    #wordpress-experts-container {
+        padding: 60px var(--h-padding-sm);
+    }
+
+    #wordpress-experts-container #wordpress-experts {
+        row-gap: 180px;
+    }
+
+    #wordpress-experts__details #experts__details__person {
+        max-width: 250px;
+        padding: 20px;
+        top: -25%;
+    }
+}
+@media (max-width: 534px) {
+    #experts__details__info #details__info__view-plan {
+        text-align: center;
+    }
+
+    #experts__details__info #details__info__view-plan:after {
+        width:60%;
+        left:50%;
+        transform:translateX(-50%);
+    }
+}
+
+@media (max-width: 436px) {
+    #wordpress-experts__details #experts__details__person {
+        top: -20%;
+    }
 }

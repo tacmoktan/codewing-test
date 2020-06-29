@@ -49,7 +49,7 @@
 #hero #hero__heading #heading__text-highlight:before {
     content: "";
     position: absolute;
-    bottom: 14px;
+    bottom: 18%;
     display: inline-block;
     border-bottom: 13px solid #81e6ff;
     opacity: 80%;
@@ -66,4 +66,31 @@
 #hero #hero__details {
     font-family: var(--nunito-sans);
     font-size: 21px;
+}
+
+@media (max-width: 768px) {
+    #hero #hero__heading {
+        font-size: 50px;
+    }
+
+    #hero #hero__sub-heading {
+        font-size: 25px;
+    }
+
+    #hero #hero__details {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 581px) {
+    #hero-container {
+        padding: 40px var(--h-padding-sm);
+    }
+}
+
+@media (max-width: 518px) {
+    #hero #hero__heading #heading__text-highlight:before {
+        bottom:6%;
+        width:50%;
+    }
 }

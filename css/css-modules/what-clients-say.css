@@ -1,11 +1,10 @@
-#what-clients-say-container{
-    padding:0 var(--h-padding-lg);
+#what-clients-say-container {
+    padding: 60px var(--h-padding-lg);
 }
 
 #what-clients-say {
     display: grid;
     grid-row-gap: 30px;
-    padding: 60px 0;
     position: relative;
 }
 
@@ -39,7 +38,7 @@
 #what-clients-say__client-list {
     content: "";
     position: relative;
-    bottom: 85px;
+    bottom: 60%;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -95,4 +94,32 @@
 
 .client__card-and-site.active .client__website {
     display: block;
+}
+
+@media (max-width: 1024px) {
+    #what-clients-say__info {
+        padding: 80px 20px 120px 20px;
+    }
+
+    #what-clients-say__client-list .client__card-and-site {
+        display:none;
+    }
+
+    #what-clients-say__client-list .client__card-and-site.active {
+        display:grid;
+    }
+}
+@media (max-width: 581px) {
+    #what-clients-say-container {
+        padding: 40px var(--h-padding-sm);
+    }
+
+    #what-clients-say__info {
+        padding: 60px 10px 120px 10px;
+    }
+
+    .client__card-and-site .client__card {
+        width:250px;
+    }
+
 }
