@@ -1,4 +1,8 @@
-#footer-top {
+#footer-container{
+    padding:0 var(--h-padding-lg);
+}
+
+#footer #footer-top {
     display: flex;
     justify-content: space-between;
     padding: 70px 0;
@@ -6,7 +10,7 @@
 }
 
 #footer-top #footer__company {
-    max-width: 265px;
+    width: 265px;
     display: grid;
     grid-row-gap: 30px;
 }
@@ -52,7 +56,7 @@
     text-decoration: none;
 }
 
-#footer-bottom {
+#footer #footer-bottom {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;

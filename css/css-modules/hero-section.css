@@ -1,7 +1,7 @@
 #hero-container {
     background-color: var(--color-primary-light);
     background-size: cover;
-    padding: 115px 20px;
+    padding: 115px var(--h-padding-lg);
     width: 100%;
     position: relative;
 }
@@ -16,6 +16,7 @@
     background-size: cover;
     width: 160px;
     height: 160px;
+    z-index: -1;
 }
 
 #hero-container::after {
@@ -28,6 +29,7 @@
     background-size: cover;
     width: 120px;
     height: 235px;
+    z-index: -1;
 }
 
 #hero-container #hero {
@@ -65,4 +67,3 @@
     font-family: var(--nunito-sans);
     font-size: 21px;
 }
-

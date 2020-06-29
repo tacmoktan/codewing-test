@@ -1,3 +1,7 @@
+#what-clients-say-container{
+    padding:0 var(--h-padding-lg);
+}
+
 #what-clients-say {
     display: grid;
     grid-row-gap: 30px;

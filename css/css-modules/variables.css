@@ -14,8 +14,12 @@
 /* variables */
 :root {
     /* width */
-    --header-max-width: 1300px; /* 1612px; */
+    --header-max-width: 1612px;
     --content-max-width: 1170px;
+
+    /* padding */
+    --h-padding-lg:40px;
+    --h-padding-sm:20px;
 
     /* fonts */
     --alegreya: "Alegreya", serif;
@@ -29,4 +33,11 @@
     /* color  */
     --color-primary: #488eff;
     --color-primary-light: rgba(72, 142, 255, 5%);
+    --color-secondary: rgb(156, 235, 255);
+
+    /* mediaquery min-widths */
+    --desktop: 1124px;
+    --tablet: 768px;
+    --mobile: 481px;
+    --mobile-sm: 320px;
 }

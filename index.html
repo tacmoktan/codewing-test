@@ -12,12 +12,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Alegreya:wght@700&family=Nunito+Sans:ital,wght@0,600;1,600;1,300&family=Nunito:wght@400;700&family=Nunito+Sans&family=Nunito+Sans:wght@800&display=swap"
         rel="stylesheet">
+    <!-- Jam icon -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
 </head>
 
 <body>
     <container id="main-container">
-        <section id="header-container">
-            <header id="header">
+        <header id="header-container">
+            <div id="header">
                 <a href="#"> <img src="./assets/logo/logo.png" alt="sitecare logo" id="header__logo" /> </a>
 
                 <nav id="header__navbar">
@@ -31,8 +33,21 @@
                     <button class="btn btn-login" id="header__login-btn">Login</button>
                 </nav>
 
-            </header>
-        </section>
+                <span id="menu-icon" class="jam jam-menu"></span>
+
+            </div>
+
+            <nav id="responsive-navbar">
+                <button class="btn btn-login" id="responsive-navbar__login-btn">Login</button>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Services</a>
+                <a href="#" class="nav-link">Features</a>
+                <a href="#" class="nav-link">Testimonials</a>
+                <a href="#" class="nav-link">Featured Clients</a>
+                <a href="#" class="nav-link">Pricing</a>
+                <a href="#" class="nav-link">FAQS</a>
+            </nav>
+        </header>
 
         <section id="hero-container">
             <div id="hero" class="content-container">
@@ -367,6 +382,9 @@
             </div>
         </footer>
     </container>
+
+    <!-- scripts -->
+    <script src="./js/responsive-nav.js"></script>
 </body>
 
 </html>

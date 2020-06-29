@@ -13,6 +13,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #232323;
+    transition:all 0.15s ease-in;
 }
 
 /* CONTENT CONTAINER */
@@ -34,7 +35,24 @@
     margin-bottom: 50px;
 }
 
-/* GET STARTED button */
+/* BUTTONS */
+.btn.btn-login {
+    color: var(--color-primary);
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    box-shadow: 0 9px 6px rgba(0, 0, 0, 4%);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn.btn-login:hover,
+.btn.btn-login:active {
+    background: var(--color-primary);
+    color: white;
+}
+
 .btn.btn-get-started {
     background: var(--color-primary);
     padding: 10px 20px;

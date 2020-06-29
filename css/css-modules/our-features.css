@@ -1,5 +1,5 @@
 #our-features-container {
-    padding: 60px 20px;
+    padding: 60px var(--h-padding-lg);
 }
 
 #our-features {
