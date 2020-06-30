@@ -58,6 +58,8 @@
     top: -20%;
     background: white;
     width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
     text-align: center;
     border-top-right-radius: 55px;
     border-bottom-left-radius: 55px;

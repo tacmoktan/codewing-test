@@ -35,6 +35,8 @@
 #footer__menu .menu__items {
     display: grid;
     height: fit-content;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
     grid-row-gap: 30px;
 }
 
@@ -43,6 +45,8 @@
     font-family: var(--nunito-sans);
     font-weight: 600;
     width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
     transition: all 0.15s ease-in;
 }
 
