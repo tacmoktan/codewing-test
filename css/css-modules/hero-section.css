@@ -91,6 +91,6 @@
 @media (max-width: 518px) {
     #hero #hero__heading #heading__text-highlight:before {
         bottom:6%;
-        width:50%;
+        width: 230px;
     }
 }
