@@ -101,4 +101,8 @@
     #header-container { 
         padding:var(--h-padding-sm);
     }
+
+    #header-container #responsive-navbar .nav-link {
+        padding:20px;
+    }
 }
