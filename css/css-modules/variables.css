@@ -34,10 +34,4 @@
     --color-primary: #488eff;
     --color-primary-light: rgba(72, 142, 255, 5%);
     --color-secondary: rgb(156, 235, 255);
-
-    /* mediaquery min-widths */
-    --desktop: 1124px;
-    --tablet: 768px;
-    --mobile: 481px;
-    --mobile-sm: 320px;
 }

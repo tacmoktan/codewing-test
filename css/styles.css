@@ -101,6 +101,12 @@ body {
     width: 100%;
 }
 
+@media (max-width: 786px) {
+    .content-container .section-desc {
+        margin:0;
+    }
+}
+
 /* Reset default styles */
 
 /* HEADINGS */
@@ -125,8 +131,3 @@ button {
 }
 
 
-@media (max-width: 786px) {
-    .content-container .section-desc {
-        margin:0;
-    }
-}

@@ -6,39 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css" />
     <title>SiteCare</title>
-
+    <link rel="icon" type="image/png" href="./assets/favicon.png"/>
     <!-- Google Fonts -->
-
     <link
         href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Alegreya:wght@700&family=Nunito+Sans:ital,wght@0,600;1,600;1,300&family=Nunito:wght@400;700&family=Nunito+Sans&family=Nunito+Sans:wght@800&display=swap"
         rel="stylesheet">
+
     <!-- Jam icon -->
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
 </head>
 
 <body>
-    <main id="main-container">
-        <header id="header-container">
-            <div id="header">
-                <a href="#"> <img src="./assets/logo/logo.png" alt="sitecare logo" id="header__logo" /> </a>
+    <header id="header-container">
+        <div id="header">
+            <a href="#"> <img src="./assets/logo/logo.png" alt="sitecare logo" id="header__logo" /> </a>
 
-                <nav id="header__navbar">
-                    <a href="#" class="nav-link">About</a>
-                    <a href="#" class="nav-link">Services</a>
-                    <a href="#" class="nav-link">Features</a>
-                    <a href="#" class="nav-link">Testimonials</a>
-                    <a href="#" class="nav-link">Featured Clients</a>
-                    <a href="#" class="nav-link">Pricing</a>
-                    <a href="#" class="nav-link">FAQS</a>
-                    <button class="btn btn-login" id="header__login-btn">Login</button>
-                </nav>
-
-                <span id="menu-icon" class="jam jam-menu"></span>
-
-            </div>
-
-            <nav id="responsive-navbar">
-                <button class="btn btn-login" id="responsive-navbar__login-btn">Login</button>
+            <nav id="header__navbar">
                 <a href="#" class="nav-link">About</a>
                 <a href="#" class="nav-link">Services</a>
                 <a href="#" class="nav-link">Features</a>
@@ -46,9 +29,26 @@
                 <a href="#" class="nav-link">Featured Clients</a>
                 <a href="#" class="nav-link">Pricing</a>
                 <a href="#" class="nav-link">FAQS</a>
+                <button class="btn btn-login" id="header__login-btn">Login</button>
             </nav>
-        </header>
 
+            <span id="menu-icon" class="jam jam-menu"></span>
+
+        </div>
+
+        <nav id="responsive-navbar">
+            <button class="btn btn-login" id="responsive-navbar__login-btn">Login</button>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Services</a>
+            <a href="#" class="nav-link">Features</a>
+            <a href="#" class="nav-link">Testimonials</a>
+            <a href="#" class="nav-link">Featured Clients</a>
+            <a href="#" class="nav-link">Pricing</a>
+            <a href="#" class="nav-link">FAQS</a>
+        </nav>
+    </header>
+
+    <main>
         <section id="hero-container">
             <div id="hero" class="content-container">
                 <h1 id="hero__heading">Having a <span id="heading__text-highlight">Wordpress Headache?</span> <br /> We
@@ -251,7 +251,7 @@
                     born.
                 </p>
 
-                <div id="what-clients-say__info">
+                <blockquote id="what-clients-say__info">
                     <h3 id="info__subject">"Really Great Customer Support"</h3>
                     <p id="info__desc">Since starting my blog in March, I have had several questions on how to format
                         things, where to
@@ -259,7 +259,7 @@
                         hours and each time the responses have been accurate and helpful! Thanks for making blogging a
                         little easier for this beginner!</p>
                     <img src="./assets/what-clients-say/commas.png" alt="comma icon" id="comma-icon" />
-                </div>
+                </blockquote>
 
                 <div id="what-clients-say__client-list">
 
@@ -315,73 +315,73 @@
             </div>
         </div>
 
-        <footer id="footer-container">
-            <div id="footer" class="content-container">
-                <section id="footer-top">
-                    <div id="footer__company">
-                        <h3 id="company__title">
-                            SITECARE
-                        </h3>
+    </main>
 
-                        <div id="company__about">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt
-                            ut
-                            labore et dolore magna aliquyam erat, sed diam voluptua.
-                        </div>
-                    </div>
+    <footer id="footer-container">
+        <div id="footer" class="content-container">
+            <section id="footer-top">
+                <div id="footer__company">
+                    <h3 id="company__title">
+                        SITECARE
+                    </h3>
 
-                    <div id="footer__menu">
-                        <div class="menu__items">
-                            <h3 class="item menu__title">Company</h3>
-                            <a href="#" class="item">About</a>
-                            <a href="#" class="item">Our Team</a>
-                            <a href="#" class="item">Mission</a>
-                            <a href="#" class="item">Testimonials</a>
-                        </div>
-
-                        <div class="menu__items">
-                            <h3 class="item menu__title">Services</h3>
-                            <a href="#" class="item">About</a>
-                            <a href="#" class="item">Our Team</a>
-                            <a href="#" class="item">Mission</a>
-                            <a href="#" class="item">Testimonials</a>
-                        </div>
-
-                        <div class="menu__items">
-                            <h3 class="item menu__title">Features</h3>
-                            <a href="#" class="item">About</a>
-                            <a href="#" class="item">Our Team</a>
-                            <a href="#" class="item">Mission</a>
-                            <a href="#" class="item">Testimonials</a>
-                        </div>
-                    </div>
-                </section>
-
-                <div id="footer-bottom">
-                    <div id="footer__copyright-and-privacy">
-                        <span id="copyright-text">© Sitecare 2019 | All Rights Reserved.</span>
-                        <a href="#" id="privacy-link">Privacy | Terms & Conditions</a>
-                    </div>
-                    <div id="footer__social-media">
-                        <a href="#" class="social-media__link">
-                            <img src="./assets/social-media-icons/instagram.png" alt="instagram icon"
-                                class="icon-img" />
-                        </a>
-                        <a href="#" class="social-media__link"><img src="./assets/social-media-icons/pinterest.png"
-                                alt="pinterest icon" class="icon-img" />
-                        </a>
-                        <a href="#" class="social-media__link"><img src="./assets/social-media-icons/twitter.png"
-                                alt="twitter icon" class="icon-img" />
-                        </a>
-                        <a href="#" class="social-media__link"><img src="./assets/social-media-icons/facebook.png"
-                                alt="facebook icon" class="icon-img" />
-                        </a>
+                    <div id="company__about">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt
+                        ut
+                        labore et dolore magna aliquyam erat, sed diam voluptua.
                     </div>
                 </div>
+
+                <div id="footer__menu">
+                    <div class="menu__items">
+                        <h3 class="item menu__title">Company</h3>
+                        <a href="#" class="item">About</a>
+                        <a href="#" class="item">Our Team</a>
+                        <a href="#" class="item">Mission</a>
+                        <a href="#" class="item">Testimonials</a>
+                    </div>
+
+                    <div class="menu__items">
+                        <h3 class="item menu__title">Services</h3>
+                        <a href="#" class="item">About</a>
+                        <a href="#" class="item">Our Team</a>
+                        <a href="#" class="item">Mission</a>
+                        <a href="#" class="item">Testimonials</a>
+                    </div>
+
+                    <div class="menu__items">
+                        <h3 class="item menu__title">Features</h3>
+                        <a href="#" class="item">About</a>
+                        <a href="#" class="item">Our Team</a>
+                        <a href="#" class="item">Mission</a>
+                        <a href="#" class="item">Testimonials</a>
+                    </div>
+                </div>
+            </section>
+
+            <div id="footer-bottom">
+                <div id="footer__copyright-and-privacy">
+                    <span id="copyright-text">© Sitecare 2019 | All Rights Reserved.</span>
+                    <a href="#" id="privacy-link">Privacy | Terms & Conditions</a>
+                </div>
+                <div id="footer__social-media">
+                    <a href="#" class="social-media__link">
+                        <img src="./assets/social-media-icons/instagram.png" alt="instagram icon" class="icon-img" />
+                    </a>
+                    <a href="#" class="social-media__link"><img src="./assets/social-media-icons/pinterest.png"
+                            alt="pinterest icon" class="icon-img" />
+                    </a>
+                    <a href="#" class="social-media__link"><img src="./assets/social-media-icons/twitter.png"
+                            alt="twitter icon" class="icon-img" />
+                    </a>
+                    <a href="#" class="social-media__link"><img src="./assets/social-media-icons/facebook.png"
+                            alt="facebook icon" class="icon-img" />
+                    </a>
+                </div>
             </div>
-        </footer>
-    </main>
+        </div>
+    </footer>
 
     <!-- scripts -->
     <script src="./js/responsive-nav.js"></script>
