@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css" />
     <title>SiteCare</title>
-    <link rel="icon" type="image/png" href="./assets/favicon.png"/>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Alegreya:wght@700&family=Nunito+Sans:ital,wght@0,600;1,600;1,300&family=Nunito:wght@400;700&family=Nunito+Sans&family=Nunito+Sans:wght@800&display=swap"
@@ -14,6 +14,11 @@
 
     <!-- Jam icon -->
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+    <!-- Slick.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
 </head>
 
 <body>
@@ -251,56 +256,156 @@
                     born.
                 </p>
 
-                <blockquote id="what-clients-say__info">
-                    <h3 id="info__subject">"Really Great Customer Support"</h3>
-                    <p id="info__desc">Since starting my blog in March, I have had several questions on how to format
-                        things, where to
-                        find certain settings, and other blogging questions. I have always received a response within 12
-                        hours and each time the responses have been accurate and helpful! Thanks for making blogging a
-                        little easier for this beginner!</p>
-                    <img src="./assets/what-clients-say/commas.png" alt="comma icon" id="comma-icon" />
-                </blockquote>
+                <div class="carousel-container">
+                    <div class="what-clients-say__carousel">
+                        <div class="what-clients-say__info-container">
+                            <blockquote class="what-clients-say__info">
 
-                <div id="what-clients-say__client-list">
+                                <h3 class="info__subject">"Really Great Customer Support"</h3>
+                                <p class="info__desc">
+                                    Since starting my blog in March, I have had several questions on how to format
+                                    things,
+                                    where to find certain settings, and other blogging questions. I have always received
+                                    a
+                                    response within 12 hours and each time the responses have been accurate and helpful!
+                                    Thanks for making blogging a little easier for this beginner!
+                                </p>
+                                <img src="./assets/what-clients-say/commas.png" alt="comma icon" class="comma-icon" />
 
-                    <div class="client__card-and-site">
-                        <div class="client__card">
-                            <img src="https://via.placeholder.com/61x61.png" alt="client pic"
-                                class="card__client-pic" />
-                            <aside class="card__client-info">
-                                <div class="client-info__name"> Jonathan Elliot </div>
-                                <div class="client-info__position"> CEO & Co-Founder</div>
-                            </aside>
+                            </blockquote>
                         </div>
-                        <a href="#" class="client__website"> www.siteurlhere.com </a>
+
+                        <div class="what-clients-say__info-container">
+                            <blockquote class="what-clients-say__info">
+
+                                <h3 class="info__subject">"Great Customer Support"</h3>
+                                <p class="info__desc">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                <img src="./assets/what-clients-say/commas.png" alt="comma icon" class="comma-icon" />
+
+                            </blockquote>
+                        </div>
+
+                        <div class="what-clients-say__info-container">
+                            <blockquote class="what-clients-say__info">
+
+                                <h3 class="info__subject">"Excellent Customer Support"</h3>
+                                <p class="info__desc">
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the
+                                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </p>
+                                <img src="./assets/what-clients-say/commas.png" alt="comma icon" class="comma-icon" />
+
+                            </blockquote>
+                        </div>
+
+                        <div class="what-clients-say__info-container">
+                            <blockquote class="what-clients-say__info">
+
+                                <h3 class="info__subject">"Nice Customer Support"</h3>
+                                <p class="info__desc">
+                                    Since starting my blog in March, I have had several questions on how to format
+                                    things,
+                                    where to find certain settings, and other blogging questions. I have always received
+                                    a
+                                    response within 12 hours and each time the responses have been accurate and helpful!
+                                    Thanks for making blogging a little easier for this beginner!
+                                </p>
+                                <img src="./assets/what-clients-say/commas.png" alt="comma icon" class="comma-icon" />
+
+                            </blockquote>
+                        </div>
+
+                        <div class="what-clients-say__info-container">
+                            <blockquote class="what-clients-say__info">
+
+                                <h3 class="info__subject">"Awesome Great Customer Support"</h3>
+                                <p class="info__desc">
+                                    Survived not only five centuries, but also the leap into electronic typesetting,
+                                    remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </p>
+                                <img src="./assets/what-clients-say/commas.png" alt="comma icon" class="comma-icon" />
+
+                            </blockquote>
+                        </div>
+
                     </div>
 
-                    <div class="client__card-and-site active">
-                        <div class="client__card ">
-                            <img src="https://via.placeholder.com/61x61.png" alt="client pic"
-                                class="card__client-pic" />
-                            <aside class="card__client-info">
-                                <div class="client-info__name"> Mary Ann Rivera </div>
-                                <div class="client-info__position"> CEO & Co-Founder</div>
-                            </aside>
-                        </div>
-                        <a href="#" class="client__website"> www.siteurlhere.com </a>
-                    </div>
+                    <div class="what-clients-say__client-list">
 
-                    <div class="client__card-and-site">
-                        <div class="client__card">
-                            <img src="https://via.placeholder.com/61x61.png" alt="client pic"
-                                class="card__client-pic" />
-                            <aside class="card__client-info">
-                                <div class="client-info__name"> Justin Gomez </div>
-                                <div class="client-info__position"> CEO & Co-Founder</div>
-                            </aside>
+                        <div class="client__card-and-site">
+                            <div class="client__card">
+                                <img src="https://via.placeholder.com/61x61.png" alt="client pic"
+                                    class="card__client-pic" />
+                                <aside class="card__client-info">
+                                    <div class="client-info__name"> Jonathan Elliot </div>
+                                    <div class="client-info__position"> CEO & Co-Founder</div>
+                                </aside>
+                            </div>
+                            <a href="#" class="client__website"> www.siteurlhere.com </a>
                         </div>
-                        <a href="#" class="client__website"> www.siteurlhere.com </a>
+
+                        <div class="client__card-and-site">
+                            <div class="client__card ">
+                                <img src="https://via.placeholder.com/61x61.png" alt="client pic"
+                                    class="card__client-pic" />
+                                <aside class="card__client-info">
+                                    <div class="client-info__name"> Mary Ann Rivera </div>
+                                    <div class="client-info__position"> CEO & Co-Founder</div>
+                                </aside>
+                            </div>
+                            <a href="#" class="client__website"> www.siteurlhere.com </a>
+                        </div>
+
+                        <div class="client__card-and-site">
+                            <div class="client__card">
+                                <img src="https://via.placeholder.com/61x61.png" alt="client pic"
+                                    class="card__client-pic" />
+                                <aside class="card__client-info">
+                                    <div class="client-info__name"> Justin Gomez </div>
+                                    <div class="client-info__position"> CEO & Co-Founder</div>
+                                </aside>
+                            </div>
+                            <a href="#" class="client__website"> www.siteurlhere.com </a>
+                        </div>
+
+                        <div class="client__card-and-site">
+                            <div class="client__card">
+                                <img src="https://via.placeholder.com/61x61.png" alt="client pic"
+                                    class="card__client-pic" />
+                                <aside class="card__client-info">
+                                    <div class="client-info__name"> Selena Gomez </div>
+                                    <div class="client-info__position"> CEO & Co-Founder</div>
+                                </aside>
+                            </div>
+                            <a href="#" class="client__website"> www.siteurlhere.com </a>
+                        </div>
+
+                        <div class="client__card-and-site">
+                            <div class="client__card">
+                                <img src="https://via.placeholder.com/61x61.png" alt="client pic"
+                                    class="card__client-pic" />
+                                <aside class="card__client-info">
+                                    <div class="client-info__name"> Ram Gomez </div>
+                                    <div class="client-info__position"> CEO & Co-Founder</div>
+                                </aside>
+                            </div>
+                            <a href="#" class="client__website"> www.siteurlhere.com </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <div id="get-started-container">
             <div id="get-started" class="content-container">
@@ -384,7 +489,16 @@
     </footer>
 
     <!-- scripts -->
+    
+    <!-- jquery link -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- slick js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <!-- custom js -->
     <script src="./js/responsive-nav.js"></script>
+    <script type="text/javascript" src="./js/custom-slick.js"></script>
 </body>
 
 </html>

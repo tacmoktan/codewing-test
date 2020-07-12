@@ -1,0 +1,34 @@
+.what-clients-say__client-list.slick-slider {
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-slide.slick-current.slick-active.slick-center .client__card-and-site .client__card {
+    box-shadow: 0 13px 26px rgb(0, 0, 0, 5%);
+    filter: opacity(1);
+    transform:scale(1);
+}
+
+.slick-slide.slick-current.slick-active.slick-center .client__card-and-site .client__website {
+    display: block;
+}
+
+@media (max-width:768px){
+    .what-clients-say__client-list.slick-slider {
+        bottom:-18%;
+    }
+}
+
+@media (max-width:581px){
+    .what-clients-say__client-list.slick-slider {
+        bottom:-16%;
+    }
+}
+
+@media (max-width:460px){
+    .what-clients-say__client-list.slick-slider {
+        bottom:-14%;
+    }
+}
