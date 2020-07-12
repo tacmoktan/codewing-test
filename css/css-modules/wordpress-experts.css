@@ -1,8 +1,4 @@
-#wordpress-experts-container {
-    padding: 60px var(--h-padding-lg);
-}
-
-#wordpress-experts-container #wordpress-experts {
+#wordpress-experts-container .wordpress-experts{
     display: grid;
     row-gap: 60px;
 }
@@ -11,7 +7,7 @@
     text-align: left;
 }
 
-#wordpress-experts__details {
+.wordpress-experts__details {
     position: relative;
     background: var(--color-primary-light);
     padding: 90px;
@@ -19,37 +15,25 @@
     flex-wrap: wrap;
 }
 
-#wordpress-experts__details #experts__details__info {
+.wordpress-experts__details .experts__details__info {
     display: grid;
     grid-row-gap: 25px;
     max-width: 600px;
 }
 
-#experts__details__info #details__info__heading {
+.experts__details__info .details__info__heading {
     font-size: 30px;
 }
 
-#experts__details__info #details__info__desc,
-#experts__details__info #details__info__lets-talk,
-#experts__details__info #details__info__view-plan {
+.experts__details__info .details__info__desc,
+.experts__details__info .details__info__lets-talk,
+.experts__details__info #details__info__view-plan {
     font-family: var(--nunito);
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
-#experts__details__info #details__info__view-plan {
-    color: #01022f;
-}
-
-#experts__details__info #details__info__view-plan:hover {
-    color: hsl(214, 82%, 51%, 80%);
-}
-
-#experts__details__info #details__info__view-plan:after {
-    border-color: #1a73e8;
-}
-
-#wordpress-experts__details #experts__details__person {
+.wordpress-experts__details .experts__details__person {
     display: grid;
     justify-items: center;
     grid-row-gap: 10px;
@@ -67,71 +51,76 @@
     box-shadow: 0 13px 46px rgba(0, 0, 0, 10%);
 }
 
-#experts__details__person #person__pic {
+.experts__details__person .person__pic {
     border-top-right-radius: 55px;
     border-bottom-left-radius: 55px;
 }
 
-#experts__details__person #person__name {
+.experts__details__person .person__name {
     font-family: var(--hensa);
     font-size: 33px;
 }
 
-#experts__details__person #person__post {
+.experts__details__person .person__post {
     font-family: var(--nunito);
 }
 
 @media (max-width: 1124px) {
-    #wordpress-experts-container #wordpress-experts {
+    #wordpress-experts-container .wordpress-experts{
         row-gap: 220px;
     }
 
-    #wordpress-experts__details {
+    .wordpress-experts__details {
         padding: 190px 90px 100px 90px;
     }
 
-    #wordpress-experts__details #experts__details__info {
+    .wordpress-experts__details .experts__details__info {
         max-width: 100%;
     }
 
-    #wordpress-experts__details #experts__details__person {
+    .wordpress-experts__details .experts__details__person {
         right: 50%;
         transform: translateX(50%);
         top: -35%;
     }
 }
 
-@media (max-width: 768px) {
-    #wordpress-experts__details {
-        padding: 190px 30px 100px 30px;
-    }
-
-    #wordpress-experts__details #experts__details__person {
-        top: -30%;
+@media (max-width:868px) {
+    .wordpress-experts__details .experts__details__person {
+        top:-30%;
     }
 }
 
-@media (max-width: 581px) {
-    #wordpress-experts-container {
-        padding: 60px var(--h-padding-sm);
+@media (max-width: 768px) {
+    .wordpress-experts__details {
+        padding: 190px 30px 100px 30px;
     }
 
-    #wordpress-experts-container #wordpress-experts {
+}
+
+@media (max-width: 581px) {
+
+    #wordpress-experts-container .wordpress-experts{
         row-gap: 180px;
     }
 
-    #wordpress-experts__details #experts__details__person {
+    .wordpress-experts__details .experts__details__person {
         max-width: 250px;
         padding: 20px;
         top: -25%;
     }
 }
 @media (max-width: 534px) {
-    #experts__details__info #details__info__view-plan {
+    
+    .wordpress-experts__details .experts__details__person {
+        top: -20%;
+    }
+
+    .experts__details__info #details__info__view-plan {
         text-align: center;
     }
 
-    #experts__details__info #details__info__view-plan:after {
+    .experts__details__info #details__info__view-plan:after {
         width:60%;
         left:50%;
         transform:translateX(-50%);
@@ -139,7 +128,7 @@
 }
 
 @media (max-width: 436px) {
-    #wordpress-experts__details #experts__details__person {
-        top: -20%;
+    .wordpress-experts__details .experts__details__person {
+        top: -17%;
     }
 }

@@ -1,4 +1,4 @@
-#hero-container {
+.hero-container {
     background-color: var(--color-primary-light);
     background-size: cover;
     padding: 115px var(--h-padding-lg);
@@ -6,7 +6,7 @@
     position: relative;
 }
 
-#hero-container::before {
+.hero-container::before {
     content: "";
     position: absolute;
     top: 0;
@@ -19,7 +19,7 @@
     z-index: -1;
 }
 
-#hero-container::after {
+.hero-container::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -32,21 +32,21 @@
     z-index: -1;
 }
 
-#hero-container #hero {
+.hero-container .hero {
     display: grid;
-    row-gap: 25px;
+    row-gap: 40px;
 }
 
-#hero #hero__heading {
+.hero .hero__heading {
     font-size: 60px;
 }
 
-#hero #hero__heading #heading__text-highlight {
+.hero .hero__heading .heading__text-highlight {
     display: inline-block;
     position: relative;
 }
 
-#hero #hero__heading #heading__text-highlight:before {
+.hero .hero__heading .heading__text-highlight:before {
     content: "";
     position: absolute;
     bottom: 18%;
@@ -57,39 +57,46 @@
     z-index: -1;
 }
 
-#hero #hero__sub-heading {
+.hero .hero__sub-heading {
     font-family: var(--nunito-sans);
     font-style: italic;
+    font-weight:300;
     font-size: 30px;
 }
 
-#hero #hero__details {
+.hero .hero__details {
     font-family: var(--nunito-sans);
     font-size: 21px;
+    font-weight: 600;
+    line-height: 2;
 }
 
 @media (max-width: 768px) {
-    #hero #hero__heading {
+    .hero-container .hero{
+        row-gap:25px;
+    }
+
+    .hero .hero__heading {
         font-size: 50px;
     }
 
-    #hero #hero__sub-heading {
+    .hero .hero__sub-heading {
         font-size: 25px;
     }
 
-    #hero #hero__details {
+    .hero .hero__details {
         font-size: 18px;
     }
 }
 
 @media (max-width: 581px) {
-    #hero-container {
+    .hero-container {
         padding: 40px var(--h-padding-sm);
     }
 }
 
 @media (max-width: 518px) {
-    #hero #hero__heading #heading__text-highlight:before {
+    .hero .hero__heading .heading__text-highlight:before {
         bottom:6%;
         width: 230px;
     }

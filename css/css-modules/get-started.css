@@ -9,19 +9,19 @@
     border-bottom-left-radius: 55px;
 }
 
-#get-started #get-started__content {
+#get-started .get-started__content {
     display: grid;
     grid-row-gap: 20px;
     max-width: 645px;
 }
 
-#get-started__content #get-started__heading {
+.get-started__content .get-started__heading {
     color: white;
     font-size: 30px;
     font-weight: bold;
 }
 
-#get-started__content #get-started__desc {
+.get-started__content .get-started__desc {
     color: white;
     font-size: 18px;
     font-family: var(--nunito-sans);
