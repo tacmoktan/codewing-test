@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.what-clients-say__desc{
+#what-clients-say__desc{
     margin:30px 0 50px 0;
 }
 
@@ -117,7 +117,12 @@
     .what-clients-say__client-list .client__card-and-site {
         display: none;
     }
+}
 
+@media (max-width: 786px) {
+    #what-clients-say__desc{
+        margin:20px 0 40px 0;
+    }
 }
 
 

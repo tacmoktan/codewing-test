@@ -118,7 +118,7 @@ body {
 
 @media (max-width: 581px){
     .outer-container{
-        padding: 60px var(--h-padding-sm);
+        padding: 40px var(--h-padding-sm);
     }
 }
 /* Reset default styles */

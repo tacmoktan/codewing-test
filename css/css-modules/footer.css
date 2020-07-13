@@ -86,11 +86,22 @@
     padding-left: 15px;
     display: block;
 }
+#footer__copyright-and-privacy #privacy-link:hover{
+    text-decoration: underline;   
+}
 
 #footer__social-media {
     width: 100px;
     display: flex;
     justify-content: space-between;
+}
+
+#footer__social-media .social-media__link{
+    opacity:0.65;
+}
+
+#footer__social-media .social-media__link:hover{
+    opacity:1;
 }
 
 @media (max-width: 1124px) {
